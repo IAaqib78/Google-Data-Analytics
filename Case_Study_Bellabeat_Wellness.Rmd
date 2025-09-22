@@ -1,0 +1,176 @@
+---
+title: 'Case Study Report: Bellabeat Wellness Insights'
+author: "Aakif Altaf"
+date: "`r Sys.Date()`"
+output:
+  pdf_document:
+    toc: true
+  html_document:
+    theme: united
+    toc: true
+    toc_float: true
+    highlight: tango
+  word_document:
+    toc: true
+---
+
+
+
+---
+
+# Introduction
+
+This case study explores **smart device usage data** from Fitbit to uncover patterns in activity, sleep, and wellness behavior.  
+Our goal is to generate actionable insights that Bellabeat, a wellness technology company, can use to improve its **marketing strategies and product offerings**.  
+
+The analysis follows a structured data analysis approach:  
+- **Ask**: What patterns exist in activity, sleep, and calories burned?  
+- **Prepare**: Clean and merge Fitbit datasets.  
+- **Process**: Explore and visualize relationships between variables.  
+- **Analyze**: Identify correlations and trends.  
+- **Share**: Present findings with clear plots and narrative.  
+- **Act**: Recommend strategies for Bellabeat’s products and campaigns.  
+
+
+---
+
+# Libraries & Data Import
+
+```
+Imported and explored multiple CSV files using readr and dplyr
+
+Cleaned and merged datasets using distinct(), drop_na(), and inner_join()
+
+Verified data integrity and structure (wide vs. long format)
+
+Assessed credibility using the ROCCC framework (Reliable, Original, Comprehensive, Current, Cited)
+```
+
+```{r setup, message=FALSE, warning=FALSE,echo=FALSE}
+library(tidyverse)
+library(lubridate)
+library(skimr)
+library(janitor)
+
+# Import data
+daily_activity <- read.csv("C:/Users/Aaqib/Downloads/test_data/dailyActivity_merged.csv")
+sleep_day <- read.csv("C:/Users/Aaqib/Downloads/test_data/sleepDay_merged.csv")
+weight_log<- read.csv("C:/Users/Aaqib/Downloads/test_data/weightLoginfo_merged.csv")
+
+# Standardize column names
+daily_activity <- clean_names(daily_activity)
+sleep_day <- clean_names(sleep_day)
+weight_log <- clean_names(weight_log)
+
+# Remove duplicates
+sleep_day <- sleep_day %>% distinct()
+
+# Convert date columns
+daily_activity <- daily_activity %>% mutate(activity_date = mdy(activity_date))
+sleep_day <- sleep_day %>% mutate(sleep_day = mdy_hms(sleep_day))
+
+# Quick data summary
+skim_without_charts(daily_activity)
+skim_without_charts(sleep_day)
+
+```
+ **I standardized and cleaned the datasets. For analysis, I focus mainly on daily activity and sleep records, merging them where possible.**
+ 
+---
+
+# Analysis & Insights
+
+**Steps vs Calories**
+
+
+**Question: Do more steps translate to more calories burned?**
+
+```{r, echo=FALSE}
+
+ggplot(daily_activity, aes(x= total_steps, y = calories)) +
+  geom_point(color = "blue", alpha = 0.5) +
+  geom_smooth(method = "lm", se = FALSE, color = "red") +
+  labs(title = "Steps vs Calories Burned", x = "Total Steps", y = "Calories Burned")
+
+
+```
+
+**Insight:**
+
+Users who took more steps consistently burned more calories. The relationship is strong and linear, confirming that physical activity drives calorie expenditure.
+
+**Business Implication:**
+
+Bellabeat can emphasize step challenges and activity goals in its marketing to highlight calorie-burning benefits.
+
+---
+# Sleep vs Activity
+
+**Question: How does sleep duration affect activity levels?**
+```{r, echo=FALSE}
+activity_sleep <- daily_activity %>%
+  inner_join(sleep_day, by = c("id" = "id", "activity_date" = "sleep_day"))
+
+ggplot(activity_sleep, aes(x= total_minutes_asleep, y = total_steps)) +
+  geom_point(color = "darkred", alpha = 0.5) +
+  geom_smooth(method = "lm", se = FALSE, color = "darkgreen") +
+  labs(title = "Sleep vs Activity", x = "Minutes Asleep", y = "Steps")
+
+```
+
+
+**Insight:**
+
+Longer sleep often correlates with lower daily activity. This suggests a trade-off between rest and physical movement.
+
+**Business Implication:**
+
+Bellabeat can encourage balanced routines—using notifications to promote consistent sleep while nudging users toward more daily movement.
+
+
+# Weekly Activity Patterns
+
+**Question: Are there patterns across weekdays?**
+```{r,echo=FALSE}
+daily_activity %>%
+  mutate(weekday = wday(activity_date, label = TRUE)) %>%
+  group_by(weekday) %>%
+  summarise(avg_steps = mean(total_steps)) %>%
+  ggplot(aes(x = weekday, y = avg_steps, fill = weekday)) +
+  geom_col(show.legend = FALSE) +
+  labs(title = "Average Steps by Day of Week", x = "Day", y = "Average Steps")
+
+```
+
+**Insight:**
+
+Users are more active on weekdays compared to weekends. Step counts drop notably on Saturdays and Sundays.
+
+**Business Implication:**
+
+Bellabeat could introduce weekend challenges or reminders to maintain activity
+levels outside of workdays.
+
+
+# Conclusions & Recommendations
+
+**This analysis highlights opportunities for Bellabeat to improve user engagement and promote healthier lifestyles:**
+
+**Encourage weekend activity challenges to balance weekday vs weekend movement.**
+
+**Use personalized notifications to promote sleep consistency and healthy routines.**
+
+**Highlight calorie–step link in marketing to promote fitness through walking/activity tracking.**
+
+**Promote balanced wellness by showing users how to manage both sleep and activity effectively.**
+
+**By leveraging these data-driven insights, Bellabeat can enhance user wellness outcomes while strengthening its brand as a holistic smart health companion.**
+
+
+
+
+# Thank You
+
+Thank you for reviewing this case study.
+I appreciate your time and interest in my analysis.
+If you would like to discuss this project further or explore potential collaborations, feel free to connect with me on my Email: kmrtech99@gmail.com
