@@ -87,7 +87,8 @@ GitHub for version control and sharing
 
 ##  Files in This Repo
 - `bellabeat_case_study.Rmd` → Full RMarkdown source code  
-- `bellabeat_case_study.html` → Rendered HTML report with plots and insights    
+- `bellabeat_case_study.html` → Rendered HTML report with plots and insights
+- `bellabeat_case_study_insights.pdf` -> pdf version for sharing
 - `README.md` → Project documentation 
 
 **Contact**
