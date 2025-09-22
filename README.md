@@ -85,6 +85,10 @@ janitor for cleaning column names
 
 GitHub for version control and sharing
 
+##  Files in This Repo
+- `bellabeat_case_study.Rmd` → Full RMarkdown source code  
+- `bellabeat_case_study.html` → Rendered HTML report with plots and insights    
+- `README.md` → Project documentation 
 
 **Contact**
 
