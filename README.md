@@ -94,3 +94,6 @@ GitHub for version control and sharing
 **Contact**
 
 If you’d like to connect or discuss this project further, feel free to reach out via  email:  Kmrtech99@gmail.com
+
+
+**[View Bellabeat Case Study Report](https://iaaqib78.github.io/Google-Data-Analytics/Case_Study_Report_Bellabeat_Wellness_Insights.html)**
