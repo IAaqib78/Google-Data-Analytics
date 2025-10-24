@@ -204,56 +204,172 @@ Additionally, <b>summary statistics</b> were calculated to capture average behav
 
 ---
 
-## **Key Findings**
+<h2 align="center" style="font-family:'Segoe UI', sans-serif; color:#00E676; font-size:28px; text-shadow:0 0 8px rgba(0,230,118,0.6);">
+🔑 Key Findings
+</h2>
 
-Users who took more steps consistently burned more calories
+<div align="center" style="max-width:850px; background:linear-gradient(135deg, #0F2027, #203A43, #2C5364); color:#f0f0f0; padding:24px; border-radius:16px; box-shadow:0 0 25px rgba(0,230,118,0.2); font-family:'Segoe UI', sans-serif; line-height:1.8; font-size:17px;">
 
-Sleep duration varied widely, but longer sleep correlated with lower activity levels
+<ul style="list-style-type:none; padding-left:0; margin:0;">
+  <li style="margin-bottom:16px;">
+     <b style="color:#00E676;">Step Count & Calories Burned:</b> Users who took more steps consistently burned more calories, highlighting activity as a key driver of energy expenditure.
+  </li>
+  <li style="margin-bottom:16px;">
+     <b style="color:#00E676;">Sleep Patterns & Activity:</b> Sleep duration varied widely, with longer sleep generally correlating with lower daytime activity levels.
+  </li>
+  <li style="margin-bottom:16px;">
+     <b style="color:#00E676;">User Engagement Levels:</b> Most users were moderately active, indicating significant opportunities for <b style="color:#FFD54F;">targeted engagement strategies</b> to boost wellness outcomes.
+  </li>
+</ul>
 
-Most users were moderately active, suggesting potential for targeted engagement strategies
+<p style="margin-top:20px; font-style:italic; color:#B2DFDB;">
+These insights not only reveal behavioral trends but also provide actionable guidance for designing personalized wellness interventions and enhancing user engagement.
+</p>
 
----
-
-
-
-
----
-
-## **Recommendations**
-
-
-Based on the analysis, I proposed the following high-level marketing strategies:
-
-Promote Bellabeat’s Time wellness watch to users focused on activity tracking
-
-Emphasize hydration and mindfulness features in the Spring bottle and app
-
-Use personalized insights to drive engagement through Bellabeat’s membership program
+</div>
 
 
 ---
 
 
-## **Tools Used**
-
-RStudio
-
-R Markdown
-
-Tidyverse (dplyr, ggplot2, tidyr, readr)
-
-janitor for cleaning column names
-
-GitHub for version control and sharing
 
 
 ---
 
-##  Files in This Repo
-- `bellabeat_case_study.Rmd` → Full RMarkdown source code  
-- `bellabeat_case_study.html` → Rendered HTML report with plots and insights
-- `bellabeat_case_study_insights.pdf` -> pdf version for sharing
-- `README.md` → Project documentation 
+<h2 align="center" style="font-family:'Segoe UI', sans-serif; color:#00E5FF; font-size:28px; text-shadow:0 0 8px rgba(0,229,255,0.6);">
+ Strategic Recommendations
+</h2>
+
+<div align="center" style="max-width:850px; background:linear-gradient(135deg, #1A1F2B, #2C3E50); color:#f2f2f2; padding:24px 28px; border-radius:16px; box-shadow:0 0 25px rgba(0,229,255,0.15); font-family:'Segoe UI', sans-serif; font-size:17px; line-height:1.8;">
+
+<p style="margin-bottom:20px; font-style:italic; color:#B2EBF2;">
+Based on the behavioral insights uncovered, the following high-level marketing strategies are recommended to elevate Bellabeat’s product engagement and user experience:
+</p>
+
+<ul style="list-style-type:none; padding-left:0; margin:0;">
+  <li style="margin-bottom:18px;">
+     <b style="color:#00E5FF;">Promote the Time wellness watch</b> to users focused on activity tracking, emphasizing its seamless integration with daily movement goals.
+  </li>
+  <li style="margin-bottom:18px;">
+     <b style="color:#00E5FF;">Highlight hydration and mindfulness features</b> in the Spring bottle and app to appeal to wellness-focused users seeking balance and calm.
+  </li>
+  <li style="margin-bottom:18px;">
+     <b style="color:#00E5FF;">Leverage personalized insights</b> to drive deeper engagement through Bellabeat’s membership program, offering tailored wellness journeys.
+  </li>
+</ul>
+
+<p style="margin-top:24px; color:#B2EBF2;">
+These strategies aim to align product strengths with user needs, fostering long-term loyalty and measurable health outcomes.
+</p>
+
+</div>
+
+
+
+---
+
+
+<h2 align="center">🛠️ Tools Used</h2>
+
+<table align="center" style="max-width:900px;">
+  <tr>
+    <th align="center" width="200" style="background-color:#0f111a;color:#00ffe6;font-size:18px;">Tool</th>
+    <th align="center" style="background-color:#0f111a;color:#00ffe6;font-size:18px;">Purpose & Description</th>
+  </tr>
+
+  <tr>
+    <td align="center" style="background-color:#111420;color:#e6e6e6;padding:15px;">
+      <img src="https://cdn-icons-png.flaticon.com/512/906/906324.png" width="50"/><br><b>RStudio</b>
+    </td>
+    <td style="background-color:#111420;color:#e6e6e6;padding:15px;line-height:1.6;">
+      Integrated development environment for R. Used for coding, data exploration, and running analytical pipelines seamlessly.
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center" style="background-color:#111420;color:#e6e6e6;padding:15px;">
+      <img src="https://cdn-icons-png.flaticon.com/512/888/888859.png" width="50"/><br><b>R Markdown</b>
+    </td>
+    <td style="background-color:#111420;color:#e6e6e6;padding:15px;line-height:1.6;">
+      Combines code, analysis, and narrative in a reproducible format. Ideal for creating professional reports and case studies.
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center" style="background-color:#111420;color:#e6e6e6;padding:15px;">
+      <img src="https://cdn-icons-png.flaticon.com/512/919/919851.png" width="50"/><br><b>Tidyverse</b>
+    </td>
+    <td style="background-color:#111420;color:#e6e6e6;padding:15px;line-height:1.6;">
+      Collection of R packages (<b>dplyr, ggplot2, tidyr, readr</b>) used for data manipulation, cleaning, and visualization with elegant syntax.
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center" style="background-color:#111420;color:#e6e6e6;padding:15px;">
+      <img src="https://cdn-icons-png.flaticon.com/512/1055/1055646.png" width="50"/><br><b>janitor</b>
+    </td>
+    <td style="background-color:#111420;color:#e6e6e6;padding:15px;line-height:1.6;">
+      Simplifies data cleaning tasks, particularly for cleaning and standardizing column names to ensure tidy datasets.
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center" style="background-color:#111420;color:#e6e6e6;padding:15px;">
+      <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="50"/><br><b>GitHub</b>
+    </td>
+    <td style="background-color:#111420;color:#e6e6e6;padding:15px;line-height:1.6;">
+      Version control, collaborative development, and sharing of code and reports. Ensures reproducibility and portfolio showcase.
+    </td>
+  </tr>
+</table>
+
+
+---
+
+<h2 align="center">📂 Files in This Repository</h2>
+
+<table align="center" style="max-width:800px;">
+  <tr>
+    <th align="center" width="200" style="background-color:#0f111a;color:#00ffe6;font-size:18px;">File</th>
+    <th align="center" style="background-color:#0f111a;color:#00ffe6;font-size:18px;">Description</th>
+  </tr>
+
+  <tr>
+    <td align="center" style="background-color:#111420;color:#e6e6e6;padding:15px;">
+      <img src="https://cdn-icons-png.flaticon.com/512/888/888844.png" width="40"/><br><b>bellabeat_case_study.Rmd</b>
+    </td>
+    <td style="background-color:#111420;color:#e6e6e6;padding:15px;line-height:1.6;">
+      Full <b>RMarkdown source code</b> containing data import, cleaning, analysis, and visualizations for reproducibility.
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center" style="background-color:#111420;color:#e6e6e6;padding:15px;">
+      <img src="https://cdn-icons-png.flaticon.com/512/888/888847.png" width="40"/><br><b>bellabeat_case_study.html</b>
+    </td>
+    <td style="background-color:#111420;color:#e6e6e6;padding:15px;line-height:1.6;">
+      Rendered <b>HTML report</b> with interactive plots and insights, ready for browser viewing and sharing.
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center" style="background-color:#111420;color:#e6e6e6;padding:15px;">
+      <img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" width="40"/><br><b>bellabeat_case_study_insights.pdf</b>
+    </td>
+    <td style="background-color:#111420;color:#e6e6e6;padding:15px;line-height:1.6;">
+      PDF version of the report for sharing offline, summarizing key findings, visualizations, and recommendations.
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center" style="background-color:#111420;color:#e6e6e6;padding:15px;">
+      <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="40"/><br><b>README.md</b>
+    </td>
+    <td style="background-color:#111420;color:#e6e6e6;padding:15px;line-height:1.6;">
+      Project documentation including methodology, analysis overview, key findings, and tools used.
+    </td>
+  </tr>
+</table>
 
 
 
@@ -281,12 +397,25 @@ GitHub for version control and sharing
 
 
 
+<h2 align="center">👩‍💻 Author</h2>
+
+<div align="center" style="max-width:800px; background-color:#111420; color:#e6e6e6; padding:20px; border-radius:12px; line-height:1.7; font-size:16px;">
+
+<img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="80" style="border-radius:50%; margin-bottom:10px;"/><br>
+
+<b>Aakif Altaf</b>  – Data Scientist & Analytics Enthusiast  
+
+Passionate about transforming raw data into actionable insights, with hands-on expertise in <b>R, Python, SQL, Machine Learning, and Data Visualization</b>. Completed multiple data science and analytics projects, blending technical rigor with storytelling to communicate insights effectively.  
+
+<div style="margin-top:10px;">
+  <a href="https://github.com/IAaqib78" target="_blank" style="margin-right:20px;">
+    <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="40" title="GitHub"/>
+  </a>
+  <a href="https://www.linkedin.com/in/aaqib-altaf-94021a146/" target="_blank">
+    <img src="https://cdn.worldvectorlogo.com/logos/linkedin-icon-2.svg" width="40" title="LinkedIn"/>
+  </a>
+</div>
+
+</div>
 
 
-
-
-
-
-**Contact**
-
-If you’d like to connect or discuss this project further, feel free to reach out via  email:  Kmrtech99@gmail.com
