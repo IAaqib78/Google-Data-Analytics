@@ -70,7 +70,7 @@ Fitbit Fitness Tracker Dataset (CC0: Public Domain via Kaggle) This dataset incl
 
   <!-- Python -->
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" width="55" title="Python" />
-</p>
+ 
 
    
  
