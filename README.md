@@ -48,10 +48,32 @@ Fitbit Fitness Tracker Dataset (CC0: Public Domain via Kaggle) This dataset incl
 ---
 
 <h3 align="center">⚙️ Tech Stack & Tools</h3>
-<p align="center"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" width="55" title="R Programming"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rstudio/rstudio-original.svg" width="55" title="RStudio"/> &nbsp; <img src="https://www.r-project.org/logo/Rlogo.png" width="55" title="R Libraries: dplyr, ggplot2, tidyr, readr"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="55" title="Git"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="55" title="GitHub"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg" width="55" title="Markdown"/> &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" width="55" title="Python"/> &nbsp;
+
+ 
+  <!-- R Programming -->
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" width="55" title="R Programming" /> &nbsp;
+ 
+  <!-- RStudio -->
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rstudio/rstudio-original.svg" width="55" title="RStudio" /> &nbsp;
+
+  <!-- R Libraries -->
+  <img src="https://www.r-project.org/logo/Rlogo.png" width="55" title="R Libraries: dplyr, ggplot2, tidyr, readr" /> &nbsp;
+
+  <!-- Git -->
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="55" title="Git" /> &nbsp;
+
+  <!-- GitHub -->
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="55" title="GitHub" /> &nbsp;
+
+  <!-- Markdown -->
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg" width="55" title="Markdown" /> &nbsp;
+
+  <!-- Python -->
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" width="55" title="Python" />
+</p>
+
    
----
+ 
 
 
 
