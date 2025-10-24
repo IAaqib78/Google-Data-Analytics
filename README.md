@@ -1,7 +1,21 @@
 # Google-Data-Analytics
 
-## **Bellabeat case study:**
-**Smart device usage analysis with R to drive data-informed marketing decisions.**
+ 
+
+
+
+
+<h1 align="center"> Bellabeat Smart Device Data Analysis</h1>
+<h3 align="center">Developed under <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" width="80"/> Data Analytics Capstone Project</h3>
+<p align="center"><em>Smart device usage insights driving data-informed marketing decisions</em></p>
+
+
+
+
+
+
+
+
 
 ## **Introduction** 
 
@@ -30,6 +44,29 @@ How can these insights inform Bellabeat’s marketing strategy?
 Fitbit Fitness Tracker Dataset (CC0: Public Domain via Kaggle) This dataset includes minute-level activity, sleep, and heart rate data from 30 consenting Fitbit users. It provides a rich foundation to explore daily habits and wellness patterns.
 
 
+
+
+
+<h3 align="center">⚙️ Tech Stack & Tools</h3>
+<p align="center"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" width="55" title="R Programming"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rstudio/rstudio-original.svg" width="55" title="RStudio"/> &nbsp; <img src="https://www.r-project.org/logo/Rlogo.png" width="55" title="R Libraries: dplyr, ggplot2, tidyr, readr"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="55" title="Git"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="55" title="GitHub"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg" width="55" title="Markdown"/> &nbsp; <img  <img  
+  
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" width="55" title="Python"/> &nbsp;
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## **Data Preparation**
 
 Imported and explored multiple CSV files using readr and dplyr
@@ -52,6 +89,33 @@ Sleep duration and activity levels
 Daily intensity and user engagement
 
 I also calculated summary statistics to identify average behaviors and usage patterns.
+
+
+
+
+
+
+
+
+
+
+<h3 align="center">📊 Activity Trend by Day</h3>
+<p align="center">
+  <img src="activity_trend.png" width="80%" style="border-radius: 10px; box-shadow: 0 0 20px #00e5ff;">
+</p>
+
+<h3 align="center">🌙 Sleep vs Steps Analysis</h3>
+<p align="center">
+  <img src="sleep_vs_steps.png" width="80%" style="border-radius: 10px; box-shadow: 0 0 20px #ff66b3;">
+</p>
+
+
+
+
+
+
+
+
 
 
 ## **Key Findings**
@@ -93,9 +157,38 @@ GitHub for version control and sharing
 - `bellabeat_case_study_insights.pdf` -> pdf version for sharing
 - `README.md` → Project documentation 
 
+
+
+
+
+
+
+
+
+<p align="center">
+  <a href="Bellabeat_Wellness_Insights.html" target="_blank">
+    <img src="https://img.shields.io/badge/🚀_Launch_Interactive_Report-%2300c3ff?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=1a1a1a&color=ff0080" 
+         alt="Launch Bellabeat Interactive Report" />
+  </a>
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 **Contact**
 
 If you’d like to connect or discuss this project further, feel free to reach out via  email:  Kmrtech99@gmail.com
-
-
-**[View Bellabeat Case Study Report](https://iaaqib78.github.io/Google-Data-Analytics/Case_Study_Report_Bellabeat_Wellness_Insights.html)**
