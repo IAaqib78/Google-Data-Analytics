@@ -6,6 +6,21 @@
 
 
 <h1 align="center"> Bellabeat Smart Device Data Analysis</h1>
+
+
+
+<h1 align="center" style="font-family:'Segoe UI',sans-serif; color:#66BB6A;">
+  
+</h1>
+
+<p align="center">
+  <img src="bellabeat.jpg" alt="Bellabeat Case Study Banner" style="width:100%; max-width:1200px; height:auto; border-radius:12px; box-shadow:0 0 20px rgba(102,187,106,0.3);">
+</p>
+
+
+
+
+
 <h3 align="center">Developed under <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" width="80"/> Data Analytics Capstone Project</h3>
 <p align="center"><em>Smart device usage insights driving data-informed marketing decisions</em></p>
 
