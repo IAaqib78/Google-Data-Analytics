@@ -115,15 +115,7 @@ I also calculated summary statistics to identify average behaviors and usage pat
 
 
 
-<h3 align="center">📊 Activity Trend by Day</h3>
-<p align="center">
-  <img src="activity_trend.png" width="80%" style="border-radius: 10px; box-shadow: 0 0 20px #00e5ff;">
-</p>
 
-<h3 align="center">🌙 Sleep vs Steps Analysis</h3>
-<p align="center">
-  <img src="sleep_vs_steps.png" width="80%" style="border-radius: 10px; box-shadow: 0 0 20px #ff66b3;">
-</p>
 
 
 
