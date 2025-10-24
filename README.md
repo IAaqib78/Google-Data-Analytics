@@ -166,7 +166,7 @@ GitHub for version control and sharing
 
 
 <p align="center">
-  <a href="Bellabeat_Wellness_Insights.html" target="_blank">
+  <a href="Case_Study_Report_Bellabeat_Wellness_Insights.html" target="_blank">
     <img src="https://img.shields.io/badge/🚀_Launch_Interactive_Report-%2300c3ff?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=1a1a1a&color=ff0080" 
          alt="Launch Bellabeat Interactive Report" />
   </a>
