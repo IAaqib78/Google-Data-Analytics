@@ -54,9 +54,27 @@ How can these trends apply to Bellabeat customers?
 
 How can these insights inform Bellabeat’s marketing strategy?
 
-**Data Sources**
 
-Fitbit Fitness Tracker Dataset (CC0: Public Domain via Kaggle) This dataset includes minute-level activity, sleep, and heart rate data from 30 consenting Fitbit users. It provides a rich foundation to explore daily habits and wellness patterns.
+
+
+<h2 align="center"> Data Sources</h2>
+
+<table align="center" style="max-width:800px;">
+  <tr>
+    <th align="center" width="220" style="background-color:#1a1a1a;color:#00e6b8;font-size:18px;">Source</th>
+    <th align="center" style="background-color:#1a1a1a;color:#00e6b8;font-size:18px;">Description</th>
+  </tr>
+
+  <tr>
+    <td align="center" style="background-color:#0d1117;color:#e6e6e6;padding:15px;">
+      <b>Fitbit Fitness Tracker Dataset</b><br> <i>(CC0: Public Domain via Kaggle)</i>
+    </td>
+    <td style="background-color:#0d1117;color:#e6e6e6;padding:15px;line-height:1.6;">
+      Minute-level activity, sleep, and heart rate data collected from <b>30 consenting Fitbit users</b>. Provides a rich foundation to analyze daily habits, wellness patterns, and behavioral trends, enabling data-driven insights into personal health and lifestyle.
+    </td>
+  </tr>
+</table>
+
 
 
 
@@ -98,28 +116,74 @@ Fitbit Fitness Tracker Dataset (CC0: Public Domain via Kaggle) This dataset incl
 
 
 ---
-## **Data Preparation**
-
-Imported and explored multiple CSV files using readr and dplyr
-
-Cleaned and merged datasets using distinct(), drop_na(), and inner_join()
-
-Verified data integrity and structure (wide vs. long format)
-
-Assessed credibility using the ROCCC framework (Reliable, Original, Comprehensive, Current, Cited)
 
 
-**Analysis & Visualization**
 
-Using ggplot2, I created visualizations to explore relationships between:
+<h2 align="center"> Data Preparation</h2>
 
-Steps taken and calories burned
+<table align="center" style="max-width:900px;">
+  <tr>
+    <th align="center" width="220" style="background-color:#1a1a1a;color:#00e6b8;font-size:18px;">Step</th>
+    <th align="center" style="background-color:#1a1a1a;color:#00e6b8;font-size:18px;">Description</th>
+  </tr>
 
-Sleep duration and activity levels
+  <tr>
+    <td align="center" style="background-color:#0d1117;color:#e6e6e6;padding:15px;">
+      <b> Data Import & Exploration</b>
+    </td>
+    <td style="background-color:#0d1117;color:#e6e6e6;padding:15px;line-height:1.6;">
+      Imported multiple CSV files using <b>readr</b> and explored them with <b>dplyr</b> to understand structure, variable types, and overall dataset characteristics.
+    </td>
+  </tr>
 
-Daily intensity and user engagement
+  <tr>
+    <td align="center" style="background-color:#0d1117;color:#e6e6e6;padding:15px;">
+      <b> Cleaning & Merging</b>
+    </td>
+    <td style="background-color:#0d1117;color:#e6e6e6;padding:15px;line-height:1.6;">
+      Cleaned datasets by removing duplicates, handling missing values, and merged them using <b>distinct()</b>, <b>drop_na()</b>, and <b>inner_join()</b> for a cohesive, unified dataset.
+    </td>
+  </tr>
 
-I also calculated summary statistics to identify average behaviors and usage patterns.
+  <tr>
+    <td align="center" style="background-color:#0d1117;color:#e6e6e6;padding:15px;">
+      <b> Data Integrity Verification</b>
+    </td>
+    <td style="background-color:#0d1117;color:#e6e6e6;padding:15px;line-height:1.6;">
+      Verified data structure and consistency, assessing <b>wide vs. long formats</b> and ensuring variables aligned across merged datasets.
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center" style="background-color:#0d1117;color:#e6e6e6;padding:15px;">
+      <b> Credibility Assessment</b>
+    </td>
+    <td style="background-color:#0d1117;color:#e6e6e6;padding:15px;line-height:1.6;">
+      Evaluated dataset reliability using the <b>ROCCC framework</b> (Reliable, Original, Comprehensive, Current, Cited) to ensure trustworthy and actionable insights.
+    </td>
+  </tr>
+</table>
+
+
+---
+
+
+
+<h2 align="center"> Analysis & Visualization</h2>
+
+<div align="center" style="max-width:900px; background-color:#111420; color:#e6e6e6; padding:20px; border-radius:12px; line-height:1.7; font-size:16px;">
+
+To uncover meaningful patterns in user behavior, a detailed exploratory analysis was performed using <b>ggplot2</b> and summary statistics. Key relationships examined include:
+
+<ul style="list-style-type:none; padding-left:0;">
+  <li> <b>Steps vs. Calories Burned:</b> Visualizations highlighted strong correlations, showing how daily activity translates into energy expenditure.</li>
+  <li> <b>Sleep Duration vs. Activity Levels:</b> Analysis revealed how sleep impacts daily activity and overall wellness.</li>
+  <li> <b>Daily Intensity vs. User Engagement:</b> Insights into engagement patterns identified peak activity times and adherence to fitness goals.</li>
+</ul>
+
+Additionally, <b>summary statistics</b> were calculated to capture average behaviors, identify trends, and reveal usage patterns across the user base. These insights provide a solid foundation for <b>data-driven recommendations</b> and <b>visualization-driven storytelling</b>.
+
+</div>
 
 
 ---
@@ -138,8 +202,7 @@ I also calculated summary statistics to identify average behaviors and usage pat
 
 
 
-
-
+---
 
 ## **Key Findings**
 
@@ -149,6 +212,12 @@ Sleep duration varied widely, but longer sleep correlated with lower activity le
 
 Most users were moderately active, suggesting potential for targeted engagement strategies
 
+---
+
+
+
+
+---
 
 ## **Recommendations**
 
@@ -162,6 +231,9 @@ Emphasize hydration and mindfulness features in the Spring bottle and app
 Use personalized insights to drive engagement through Bellabeat’s membership program
 
 
+---
+
+
 ## **Tools Used**
 
 RStudio
@@ -173,6 +245,9 @@ Tidyverse (dplyr, ggplot2, tidyr, readr)
 janitor for cleaning column names
 
 GitHub for version control and sharing
+
+
+---
 
 ##  Files in This Repo
 - `bellabeat_case_study.Rmd` → Full RMarkdown source code  
